@@ -1,4 +1,4 @@
-
+# Open in VSCode for LocalWP
 
 You can use this addon for [Local](https://localwp.com/) 9.x+ on **MacOS ONLY** to open the site's `app/public` folder in a new window in VSCode.
 
@@ -7,6 +7,8 @@ You can use this addon for [Local](https://localwp.com/) 9.x+ on **MacOS ONLY** 
 Download the `.tgz` file from a [release](https://github.com/aubreypwd/localwp-open-in-vscode/releases). Navigate to *Local → Addons → Installed → Install from Disk* and select the `.tgz` file. Enable *Open in VSCode* and restart Local.
 
 ## Usage
+
+![CleanShot 2024-07-14 at 17 38 39@2x](https://github.com/user-attachments/assets/88d9a4cd-41de-44c0-9d47-62195542bc0a)
 
 Open any site, and in the top-right of the window you should see an "Open in VSCode" button. If it is _disabled_, the addon cannot find the location of `/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code` to work with VSCode.
 
