@@ -29,7 +29,7 @@ export default class VSCode extends React.Component {
 
 		super(props);
 
-		this.disabled = false;
+		this.disabled = true;
 
 		this.updateState();
 
