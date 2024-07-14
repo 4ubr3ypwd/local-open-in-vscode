@@ -1,0 +1,73 @@
+{
+  "name": "localwp-open-in-vscode",
+  "productName": "Open In VSCode",
+  "version": "1.1.0",
+  "author": "Aubrey Portwood",
+  "keywords": [
+    "local-addon",
+    "open-in-vscode",
+    "database"
+  ],
+  "bgColor": "#F4FDF6",
+  "icon": "icon.png",
+  "slug": "local-open-in-vscode",
+  "description": "Open site in VSCode.",
+  "renderer": "lib/renderer.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aubreypwd/localwp-open-in-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/aubreypwd/localwp-open-in-vscode/issues"
+  },
+  "license": "GPL-3.0",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "watch": "watchexec 'npm run build'",
+    "link": "sh ./npm/scripts/symlink.sh",
+    "unlink": "sh ./npm/scripts/unlink.sh",
+    "dist": "rm -Rf *.tgz && mkdir -p dist && node node_modules/npm-pack-all && mv *.tgz dist/",
+    "release": "npm run dist"
+  },
+  "devDependencies": {
+    "@getflywheel/eslint-config-local": "1.0.4",
+    "@getflywheel/local": "^5.0.0",
+    "@types/classnames": "^2.2.9",
+    "@types/dateformat": "^3.0.1",
+    "@types/node": "^12.7.12",
+    "eslint": "^5.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
+    "typescript": "^3.9.10"
+  },
+  "peerDependencies": {
+    "react": ">= 16.4.0",
+    "react-dom": ">= 16.4.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "dependencies": {
+    "@getflywheel/local-components": "^14.0.0",
+    "babel-eslint": "~10.1.0",
+    "classnames": "^2.2.6",
+    "dateformat": "^3.0.3",
+    "electron-is": "~3.0.0",
+    "fs-extra": "^9.0.1",
+    "npm-pack-all": "~1.11.9",
+    "prop-types": "^15.6.2",
+    "react": ">= 16.4.0",
+    "react-dom": ">= 16.4.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "bundledDependencies": [
+    "classnames",
+    "dateformat",
+    "@getflywheel/local-components",
+    "prop-types",
+    "lodash",
+    "electron-is"
+  ],
+  "engines": {
+    "local-by-flywheel": "^5.0.0"
+  }
+}
