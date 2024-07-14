@@ -87,7 +87,7 @@ export default class VSCode extends React.Component {
 	}
 
 	/**
-	 * Render our [Open VSCode] Button.
+	 * Render our [Open in VSCode] Button.
 	 *
 	 * @author Aubrey Portwood <aubreypwd@icloud.com>
 	 * @since 1.0.0
