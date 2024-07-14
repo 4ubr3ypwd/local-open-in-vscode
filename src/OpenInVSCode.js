@@ -29,8 +29,6 @@ export default class VSCode extends React.Component {
 
 		super(props);
 
-		this.disabled = true;
-
 		this.updateState();
 
 		setInterval(() => this.updateState(), 250);
