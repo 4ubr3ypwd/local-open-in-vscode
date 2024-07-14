@@ -4,7 +4,7 @@ You can use this addon for [Local](https://localwp.com/) 9.x+ on **MacOS ONLY** 
 
 ## Install
 
-Download the `.tgz` file from a [release](https://github.com/aubreypwd/localwp-open-in-vscode/releases). Navigate to *Local → Addons → Installed → Install from Disk* and select the `.tgz` file. Enable *Open in VSCode* and restart Local.
+Download the `.tgz` file from a [release](https://github.com/aubreypwd/local-open-in-vscode/releases). Navigate to *Local → Addons → Installed → Install from Disk* and select the `.tgz` file. Enable *Open in VSCode* and restart Local.
 
 ## Usage
 
@@ -17,7 +17,7 @@ Open any site, and in the top-right of the window you should see an "Open in VSC
 Clone the repo anywhere you want using:
 
 ```
-git clone git@github.com:aubreypwd/localwp-open-in-vscode.git
+git clone git@github.com:aubreypwd/local-open-in-vscode.git
 ```
 
 Then, cd into the repo and run `npm run link` and it will automatically symlink to your Local addons folder and build the package.

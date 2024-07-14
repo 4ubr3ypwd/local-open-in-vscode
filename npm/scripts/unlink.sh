@@ -1,9 +1,9 @@
 #!/bin/sh
 
-function unlinkit {
-	local pwd=$(pwd)
-	local addondir="$HOME/Library/Application Support/Local/addons"
-	local addonpath="$addondir/local-tableplus"
+unlinkit () {
+	pwd=$(pwd)
+	addondir="$HOME/Library/Application Support/Local/addons"
+	addonpath="$addondir/local-tableplus"
 
 	if [ ! -d "$addondir" ]; then
 		echo "⚠️  Cannot locate $addondir, is Local installed?"

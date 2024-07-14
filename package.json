@@ -1,5 +1,5 @@
 {
-  "name": "localwp-open-in-vscode",
+  "name": "local-open-in-vscode",
   "productName": "Open In VSCode",
   "version": "1.0.0",
   "author": "Aubrey Portwood",
@@ -15,10 +15,10 @@
   "renderer": "lib/renderer.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aubreypwd/localwp-open-in-vscode"
+    "url": "https://github.com/aubreypwd/local-open-in-vscode"
   },
   "bugs": {
-    "url": "https://github.com/aubreypwd/localwp-open-in-vscode/issues"
+    "url": "https://github.com/aubreypwd/local-open-in-vscode/issues"
   },
   "license": "GPL-3.0",
   "scripts": {
