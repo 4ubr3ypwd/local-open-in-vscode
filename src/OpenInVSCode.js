@@ -58,7 +58,7 @@ export default class VSCode extends React.Component {
 	 * @return {string} The path to the code executable.
 	 */
 	theVSCodeExecutablePath () {
-		return '/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code';
+		return '/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code';
 	}
 
 	/**
@@ -77,8 +77,6 @@ export default class VSCode extends React.Component {
 
 	/**
 	 * Detect VSCode
-	 *
-	 * Assumes, like normal, you have it in /Applications/Visual Studio Code.app.
 	 *
 	 * @author Aubrey Portwood <aubreypwd@icloud.com>
 	 * @since 1.0.0
